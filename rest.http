@@ -1,0 +1,7 @@
+GET http://localhost:3000/api/eleve
+Content-Type: application/json
+
+{
+    "email":"bema@gmail.com",
+    "password":"bema@gmail.com"
+}
