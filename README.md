@@ -4,14 +4,14 @@ The goal of this project is to create an API structure that is easy to use and s
 
 ## Installation procedure
 - Prerequis: Node.js ,SGBD mysql, nodemon (npm install -g nodemon), REST Client extension Visual Studio Code
-- git clone https://github.com/Ntsoa2112/API-NodeJs.git
+- git clone https://github.com/Ntsoa2112/API-Expree-JS
 - cd API-NodeJs
 - npm install
 - Import the base.sql database
 - Create the environment variable .env file, then copy the content of .env.example into .env, after adding the name of your database, the password and all the necessary configurations
 - npm run start
 
-## Route
+## User rest.http - Route
 List élève:
 
         GET http://localhost:3000/api/eleve
